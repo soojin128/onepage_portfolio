@@ -1,0 +1,37 @@
+[{
+    "num": 0,
+    "title": "Smooth Scroll Website",
+    "language": "HTML, CSS, JAVASCRIPT",
+    "time": "2021.01.11 ~ 2021.01.15",
+    "performence1": "반응형 웹 사이트",
+    "performence2": "Nav 클릭 시 해당 위치로 이동",
+    "performence3": "Logo 클릭 시 최상단으로 이동",
+    "performence4": "display grid, flex 활용",
+    "performence5": "uiGradients 활용",
+    "view": "img/JS-responsive.png"
+  },
+  {
+    "num": 1,
+    "title": "ui/ux",
+    "language": "HTML, CSS, REACT",
+    "time": "2021.02.01 ~",
+    "performence1": "lalalala",
+    "performence2": "lalalala 수입, 지출, 잔액 업데이트",
+    "performence3": "lalala 지출의 데이터 수정, 삭제 기능",
+    "performence4": "lalala 이용해 수입과 지출의 비율 확인",
+    "performence5": "lalala 활용하여 화폐단위로 ',' 입력",
+    "view": "img/Test_BudgetApp.gif"
+  },
+  {
+    "num": 2,
+    "title": "가계부",
+    "language": "HTML, CSS, JAVASCRIPT",
+    "time": "2021.02.01 ~",
+    "performence1": "localStorage를 이용해 데이터 보존",
+    "performence2": "실시간으로 수입, 지출, 잔액 업데이트",
+    "performence3": "수입과 지출의 데이터 수정, 삭제 기능",
+    "performence4": "캔버스를 이용해 수입과 지출의 비율 확인",
+    "performence5": "정규표현식을 활용하여 화폐단위로 ',' 입력",
+    "view": "img/BudgetApp_modal.gif"
+  }
+]
