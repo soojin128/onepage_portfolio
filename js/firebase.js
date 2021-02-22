@@ -24,5 +24,13 @@ sendBtn.addEventListener('click',(e) => {
     nameV: name.value,
     emailV: email.value,
     messageV: message.value
-  })
-})
+  });
+  alert('메시지가 성공적으로 보내졌습니다.');
+  resetInput();
+});
+
+function resetInput(){
+  name.value = '';
+  email.value = '';
+  message.value = '';
+}
