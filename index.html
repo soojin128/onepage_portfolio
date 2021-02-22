@@ -277,7 +277,7 @@
             <p class="project__description">마음에 드신다면 메세지를 남겨보세요!</p>
           </div>
           <div>
-            <a href="#contact" class="button button-white">Send Message</a>
+            <a href="#contact" class="button button-white">메시지 보내기</a>
           </div>
         </div>
       </div>
@@ -368,13 +368,13 @@
 
         <form action="" class="contact__form">
           <div class="contact__inputs">
-            <input type="text" placeholder="Name" class="contact__input">
-            <input type="email" placeholder="Email" class="contact__input">
+            <input id="name" type="text" placeholder="Name" class="contact__input">
+            <input id="email" type="email" placeholder="Email" class="contact__input">
           </div>
 
-          <textarea name="" id="" cols="0" rows="7" placeholder="Message" class="contact__input"></textarea>
+          <textarea name="" id="message" cols="0" rows="7" placeholder="Message" class="contact__input"></textarea>
 
-          <input type="submit" value="Send Message" class="button contact__button">
+          <button id="sendBtn" class="button contact__button">메시지 보내기</button>
         </form>
       </div>
     </section>
@@ -406,6 +406,11 @@
 
   <!--==== NODAL JS ====-->
   <script src="js/modal.js"></script>
+
+  <!--==== FIREBASE ====-->
+  <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.2.6/firebase-database.js"></script>
+  <script src="js/firebase.js"></script>
 </body>
 
 </html>
