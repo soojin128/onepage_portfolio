@@ -1,8 +1,8 @@
-// OPEN MODAL
 const modalOpenBtn = document.querySelectorAll('.portfolio__content a')
 const modal = document.querySelector('.modal')
 let modalCloseBtn
 let modalContent = document.querySelector('.modal__content')
+let modalView
 
 
 // GET DATA FROM JSON
@@ -92,7 +92,6 @@ function buildModal(data) {
   modalContent.innerHTML = row
 }
 
-
 function closeModal() {
   modalCloseBtn = document.querySelector('.modal__close')
 
@@ -104,8 +103,18 @@ function closeModal() {
 }
 
 // OPEN NEW BROWSER
-const ghLinks = ['https://github.com/soojin128/JS-smooth-scroll-website', 'https://github.com/soojin128/JS-smooth-scroll-website', 'https://github.com/soojin128/Budget-App'];
-const demoLinks = ['https://soojin128.github.io/JS-smooth-scroll-website/', 'https://soojin128.github.io/JS-smooth-scroll-website/', 'https://soojin128.github.io/Budget-App/'];
+const ghLinks = [
+  'https://github.com/soojin128/JS-smooth-scroll-website',
+  'https://github.com/soojin128/JS-smooth-scroll-website',
+  'https://github.com/soojin128/Budget-App',
+  'https://github.com/soojin128/react-todo-app'
+];
+const demoLinks = [
+  'https://soojin128.github.io/JS-smooth-scroll-website/',
+  'https://soojin128.github.io/JS-smooth-scroll-website/',
+  'https://soojin128.github.io/Budget-App/',
+  'https://soojin128.github.io/react-todo-app/'
+];
 
 function openGhLink() {
   ghLinks.forEach(function (l, idx) {

@@ -58,7 +58,7 @@
       <div class="about__container bd-grid">
         <div class="about__data bd-grid">
           <p class="about__description">
-            <span>다양한</span> 경험과 경력으로 성장에 노하우가있는 신입 개발자, 김수진입니다.
+            <span>다양한 경험</span>과 경력으로 성장에 노하우가있는 신입 개발자, 김수진입니다.
             <br />
             최신 기술과 이슈를 끊임없이 연구하고 꾸준히 학문을 쌓아, 작은 부분까지도 가장 효율적인 방법으로 구현할 수 있는 개발자가 되는것이 목표입니다.
             <br />
@@ -99,6 +99,21 @@
                 <span class="qualification__work">
                   <i class='bx bx-calendar-alt qualification__title-icon'></i>
                   2019.11 - 2020.04
+                </span>
+              </div>
+            </div>
+
+            <div class="qualification__data">
+              <h3 class="qualification__area">주니어 소믈리에</h3>
+
+              <div class="qualification__box">
+                <span class="qualification__work">
+                  <i class='bx bx-briefcase-alt qualification__title-icon'></i>
+                  Bluff Wine & Dine - 서울 도산대로
+                </span>
+                <span class="qualification__work">
+                  <i class='bx bx-calendar-alt qualification__title-icon'></i>
+                  2018.08 - 2019.09
                 </span>
               </div>
             </div>
@@ -263,6 +278,7 @@
           <p class="skillset__description">- Vanilla JavaScript (ES6 활용)</p>
           <p class="skillset__description">- 플러그인 적용/활용</p>
           <p class="skillset__description">- JSON/AJAX</p>
+          <p class="skillset__description">- React.js 열심히 공부중</p>
         </div>
       </div>
     </section>
@@ -290,17 +306,17 @@
 
       <div class="portfolio__nav">
         <span class="portfolio__item active-portfolio" data-filter="all">All</span>
-        <span class="portfolio__item" data-filter=".web">Web</span>
-        <span class="portfolio__item" data-filter=".ux">Ui/Ux</span>
+        <span class="portfolio__item" data-filter=".JS_web">JS Web</span>
+        <span class="portfolio__item" data-filter=".React_web">React Web</span>
         <span class="portfolio__item" data-filter=".app">App</span>
       </div>
 
       <div class="portfolio__container bd-grid">
 
-        <div id="0" class="portfolio__content mix web">
-          <a href="#"><img src="img/JS-responsive.png" alt="" class="portfolio__img"></a>
+        <div id="0" class="portfolio__content mix JS_web">
+          <a href="#"><img src="img/JS-responsive_thumb.png" alt="" class="portfolio__img"></a>
           <div class="portfolio__data">
-            <span class="portfolio__subtitle">Web development</span>
+            <span class="portfolio__subtitle">JavaScript Web development</span>
             <a href="#">
               <h2 class="portfolio__title">JavaScript를 이용한 반응형 웹사이트</h2>
             </a>
@@ -308,10 +324,10 @@
           </div>
         </div>
 
-        <div id="1" class="portfolio__content mix ux">
+        <div id="1" class="portfolio__content mix React_web">
           <a href="#"><img src="img/37989.JPEG" alt="" class="portfolio__img"></a>
           <div class="portfolio__data">
-            <span class="portfolio__subtitle">Ux design</span>
+            <span class="portfolio__subtitle">React.js Web development</span>
             <a href="#">
               <h2 class="portfolio__title">New portfolio of work done for a client.</h2>
             </a>
@@ -320,11 +336,22 @@
         </div>
 
         <div id="2" class="portfolio__content mix app">
-          <a href="#"><img src="img/BudgetApp.png" alt="" class="portfolio__img"></a>
+          <a href="#"><img src="img/BudgetApp_thumb.png" alt="" class="portfolio__img"></a>
           <div class="portfolio__data">
-            <span class="portfolio__subtitle">Web app</span>
+            <span class="portfolio__subtitle">Application</span>
             <a href="#">
-              <h2 class="portfolio__title">JavaScript를 이용한 간단한<br />가계부 어플리케이션</h2>
+              <h2 class="portfolio__title">JavaScript를 이용한 간단한<br />가계부 앱</h2>
+            </a>
+            <a href="#" class="button button-link">View Details</a>
+          </div>
+        </div>
+
+        <div id="3" class="portfolio__content mix app">
+          <a href="#"><img src="img/TodoApp_thumb.png" alt="" class="portfolio__img"></a>
+          <div class="portfolio__data">
+            <span class="portfolio__subtitle">Application</span>
+            <a href="#">
+              <h2 class="portfolio__title">React.js를 이용한 <br />ToDo 앱</h2>
             </a>
             <a href="#" class="button button-link">View Details</a>
           </div>
@@ -385,12 +412,6 @@
     <div class="footer__container bd-container">
       <h1 class="footer__title">Jenny Kim</h1>
       <p class="footer__description">I am Jenny Kim and this is my personal website.</p>
-
-      <div class="footer__social">
-        <a href="#" class="footer__link"><i class='bx bxl-linkedin'></i></a>
-        <a href="#" class="footer__link"><i class='bx bxl-github'></i></a>
-        <a href="#" class="footer__link"><i class='bx bxl-dribbble'></i></a>
-      </div>
       <p class="footer__copy">&#169; 2021 All right reserved </p>
     </div>
   </footer>
@@ -404,7 +425,7 @@
   <!--==== MAIN JS ====-->
   <script src="js/main.js"></script>
 
-  <!--==== NODAL JS ====-->
+  <!--==== MODAL JS ====-->
   <script src="js/modal.js"></script>
 
   <!--==== FIREBASE ====-->
