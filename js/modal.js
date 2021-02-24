@@ -107,13 +107,15 @@ const ghLinks = [
   'https://github.com/soojin128/JS-smooth-scroll-website',
   'https://github.com/soojin128/JS-smooth-scroll-website',
   'https://github.com/soojin128/Budget-App',
-  'https://github.com/soojin128/react-todo-app'
+  'https://github.com/soojin128/react-todo-app',
+  'https://github.com/soojin128/JS-GYM-Website'
 ];
 const demoLinks = [
   'https://soojin128.github.io/JS-smooth-scroll-website/',
   'https://soojin128.github.io/JS-smooth-scroll-website/',
   'https://soojin128.github.io/Budget-App/',
-  'https://soojin128.github.io/react-todo-app/'
+  'https://soojin128.github.io/react-todo-app/',
+  'https://soojin128.github.io/JS-GYM-Website/'
 ];
 
 function openGhLink() {

@@ -2,9 +2,9 @@
     "num": 0,
     "title": "Smooth Scroll Website",
     "language": "HTML, CSS, JAVASCRIPT",
-    "time": "2021.02.01 ~ 2021.02.05",
+    "time": "2021.02.08",
     "performence1": "반응형 웹 사이트",
-    "performence2": "Nav 클릭 시 해당 위치로 이동",
+    "performence2": "Nav 링크 클릭 시 해당 위치로 이동",
     "performence3": "Logo 클릭 시 최상단으로 이동",
     "performence4": "display grid, flex 활용",
     "performence5": "Nav버튼 해당위치 도달 시 하이라이트",
@@ -12,15 +12,15 @@
   },
   {
     "num": 1,
-    "title": "ui/ux",
+    "title": "반응형 웹사이트",
     "language": "React.js, css",
-    "time": "2021.02.01 ~",
-    "performence1": "lalalala",
-    "performence2": "lalalala 수입, 지출, 잔액 업데이트",
-    "performence3": "lalala 지출의 데이터 수정, 삭제 기능",
-    "performence4": "lalala 이용해 수입과 지출의 비율 확인",
-    "performence5": "lalala 활용하여 화폐단위로 ',' 입력",
-    "view": "img/Test_BudgetApp.gif"
+    "time": "2021.02.22 ~",
+    "performence1": "곧 업로드 됩니다!",
+    "performence2": "곧 업로드 됩니다!",
+    "performence3": "곧 업로드 됩니다!",
+    "performence4": "곧 업로드 됩니다!",
+    "performence5": "곧 업로드 됩니다!",
+    "view": ""
   },
   {
     "num": 2,
@@ -38,12 +38,24 @@
     "num": 3,
     "title": "To Do List",
     "language": "React.js, css",
-    "time": "2021.01.04 ~ 2021.01.18",
+    "time": "2021.01.06 ~ 2021.01.18",
     "performence1": "localStorage를 이용해 데이터 저장",
     "performence2": "스케줄 추가",
     "performence3": "스케줄 수정 및 삭제",
     "performence4": "스케줄 완료 시 텍스트를 클릭하여 체크",
-    "performence5": "텍스트 없을 시 입력 불가",
+    "performence5": "텍스트 없을 시 스케줄 추가 불가",
     "view": "img/TodoApp_modal.png"
+  },
+  {
+    "num": 4,
+    "title": "Fitness Gym",
+    "language": "HTML, CSS, JAVASCRIPT",
+    "time": "2021.02.24",
+    "performence1": "반응형 웹 사이트",
+    "performence2": "Scroll Animation",
+    "performence3": "Nav 링크 클릭 시 해당 페이지로 이동",
+    "performence4": "GSAP 프레임워크 활용",
+    "performence5": "display flex, grid 적극 활용",
+    "view": "img/gym-website_thumb.png"
   }
 ]
