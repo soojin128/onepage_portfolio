@@ -12,15 +12,15 @@
   },
   {
     "num": 1,
-    "title": "반응형 웹사이트",
-    "language": "React.js, css",
-    "time": "2021.02.22 ~",
-    "performence1": "곧 업로드 됩니다!",
-    "performence2": "",
-    "performence3": "",
-    "performence4": "",
-    "performence5": "",
-    "view": ""
+    "title": "주택 임대 웹 사이트",
+    "language": "React.js",
+    "time": "2021.02.22 ~ 2021.03.05",
+    "performence1": "반응형 웹 사이트",
+    "performence2": "이미지 슬라이드쇼",
+    "performence3": "스크롤 애니메이션",
+    "performence4": "react-router-dom",
+    "performence5": "styled-components",
+    "view": "img/rental-web_thumb.png"
   },
   {
     "num": 2,
@@ -52,10 +52,22 @@
     "language": "HTML, CSS, JAVASCRIPT",
     "time": "2021.02.24",
     "performence1": "반응형 웹 사이트",
-    "performence2": "Scroll Animation",
+    "performence2": "스크롤 애니메이션",
     "performence3": "Nav 링크 클릭 시 해당 페이지로 이동",
     "performence4": "GSAP 프레임워크 활용",
     "performence5": "display flex, grid 적극 활용",
     "view": "img/gym-website_thumb.png"
+  },
+  {
+    "num": 5,
+    "title": "넷플릭스 클론코딩",
+    "language": "React.js, CSS",
+    "time": "2021.03.11 ~ 현재 진행 중",
+    "performence1": "진행중인 프로젝트 입니다.",
+    "performence2": "로그인, 로그아웃 기능(firebase auth)",
+    "performence3": "멤버십 결제기능(firebase stripe)",
+    "performence4": "TMDb API 이용",
+    "performence5": "반응형 웹 사이트(수정 중)",
+    "view": "img/Netflix-clone_modal.png"
   }
 ]

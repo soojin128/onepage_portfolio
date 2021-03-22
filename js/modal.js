@@ -105,17 +105,19 @@ function closeModal() {
 // OPEN NEW BROWSER
 const ghLinks = [
   'https://github.com/soojin128/JS-smooth-scroll-website',
-  'https://github.com/soojin128/JS-smooth-scroll-website',
+  'https://github.com/soojin128/React-rentalHouse-Web',
   'https://github.com/soojin128/Budget-App',
   'https://github.com/soojin128/react-todo-app',
-  'https://github.com/soojin128/JS-GYM-Website'
+  'https://github.com/soojin128/JS-GYM-Website',
+  'https://github.com/soojin128/Netflix-clone'
 ];
 const demoLinks = [
   'https://soojin128.github.io/JS-smooth-scroll-website/',
-  'https://soojin128.github.io/JS-smooth-scroll-website/',
+  'https://soojin128.github.io/React-rentalHouse-Web/',
   'https://soojin128.github.io/Budget-App/',
   'https://soojin128.github.io/react-todo-app/',
-  'https://soojin128.github.io/JS-GYM-Website/'
+  'https://soojin128.github.io/JS-GYM-Website/',
+  'https://netflix-clone-6649c.web.app/'
 ];
 
 function openGhLink() {

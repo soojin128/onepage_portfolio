@@ -594,6 +594,10 @@ img {
   line-height: var(--mb-4);
 }
 
+.performence li i{
+  margin-right: var(--mb-1);
+}
+
 .modal__content .modal__view img {
   width: 100%;
   max-width: 320px;
